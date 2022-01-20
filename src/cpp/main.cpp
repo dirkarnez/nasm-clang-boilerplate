@@ -2,12 +2,12 @@
 
 using namespace std;
 
-extern "C" int get123(void);
+extern "C" int factorial(int input);
 
 int main() {
     cout << "Hello World!" << endl;
-    cout << get123() << endl;
-    string str; 
+    cout << factorial(9) << endl; //9! = 362880
+    string str;
     getline(cin, str); 
     return 0;
 }
