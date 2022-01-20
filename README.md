@@ -1,4 +1,4 @@
 nasm-clang-boilerplate
 ======================
 ### TODOs
-- [ ] CMake do the `.obj` compilation
+- [x] CMake do the `.obj` compilation
